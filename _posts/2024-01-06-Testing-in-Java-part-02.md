@@ -6,7 +6,7 @@ tags : [java, tutorial]
 toc : true
 ---
 
-# Links
+# Other Links
 - [Link to part 1]({% post_url 2024-01-06-Testing-in-Java-part-01 %})
 
 ## Using stubs in testing in Java

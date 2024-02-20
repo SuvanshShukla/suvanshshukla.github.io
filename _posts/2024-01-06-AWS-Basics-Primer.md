@@ -1,7 +1,7 @@
 ---
 title: AWS Basics Primer
 date: 2024-01-06
-categories: [AWS, Tutorial]
+categories: [AWS, tutorial]
 tags: [aws, learning]
 ---
 

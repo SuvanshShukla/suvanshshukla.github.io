@@ -1,7 +1,7 @@
 ---
 title : Testing in Java Part 1
 date: 2024-01-06
-categories: [Java, Tutorial]
+categories: [java, tutorial]
 tags: [aws, learning]
 toc: true
 ---

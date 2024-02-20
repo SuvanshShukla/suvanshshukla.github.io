@@ -77,3 +77,7 @@ both when and then are from `import static org.mockito.Mockito`
 ```java
 assertEquals(rmClientMappingList.size(), rmapIsServiceImp.rmClientsList("000").size());
 ```
+
+
+#### Links
+- [Link to part 2]({% post_url /java/2024-01-06-Testing-in-Java-part-02 %})

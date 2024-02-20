@@ -7,7 +7,7 @@ toc : true
 ---
 
 # Links
-- [Link to part 1]({% post_url 2024-01-06-Testing-in-Java-part-01 %})
+- [Link to part 1]({% post_url /java/2024-01-06-Testing-in-Java-part-01 %})
 
 ## Using stubs in testing in Java
 - This was first brought up by Anivesh when he was "reviewing our code" for clovek and he said that another way of bypassing the failed test cases or to test some models is to use stubs [[code-review-may-02 1]]

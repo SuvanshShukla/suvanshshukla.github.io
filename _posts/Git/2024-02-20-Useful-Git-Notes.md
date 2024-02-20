@@ -1,3 +1,11 @@
+---
+title: Useful Git Commands & Notes
+date: 2024-02-20
+categories: [git, tutorial]
+tags: [git, learning]
+---
+
+
 # Some Useful Git Commands
 ---
 
@@ -7,28 +15,38 @@
 - used to get the difference between the current state and last saved/committed changes
 - output can be redirected to a file for easier reading
 
-> git diff
-> the above command is used to find difference in current state of repo and last committed state
+```bash
+git diff
+```
+the above command is used to find difference in current state of repo and last committed state
 
-> git diff @{upstream}
-> this command is used to find the differences between current repo state and with the branch it will be pushed to 
+```bash
+git diff @{upstream}
+```
+this command is used to find the differences between current repo state and with the branch it will be pushed to 
 
-> git diff --name-only
-> this command is used to only get the files names where changes have happened
+```bash
+git diff --name-only
+```
+this command is used to only get the files names where changes have happened
 
-> git diff origin/master...origin/main > foo.txt
-> this command is used to compare the remote master branch and remote main branch and redirect its output to foo.txt (viewing this file in vim shows it in color)
+```bash
+git diff origin/master...origin/main > foo.txt
+```
+this command is used to compare the remote master branch and remote main branch and redirect its output to foo.txt (viewing this file in vim shows it in color)
 
-> git diff origin/master origin/bhaskar-demovideos --color > foo.txt
-> another example of comparing two remote branches
+```bash
+git diff origin/master origin/bhaskar-demovideos --color > foo.txt
+```
+another example of comparing two remote branches
 
 ```bash
 git diff --stat <commitID>
 ```
-this gives the stats (which files were modifed) for a specific commit 
+this gives the stats (which files were modified) for a specific commit 
 
 ## How to save git credentials
-### This link is pretty useful [LINK](https://www.shellhacks.com/git-config-username-password-store-credentials/). It even discusses how to set git credentials for a single repo and also for global usage.
+### This link is pretty useful [Shellhacks](https://www.shellhacks.com/git-config-username-password-store-credentials/). It even discusses how to set git credentials for a single repo and also for global usage.
 
 The usernames and passwords for different GitHub repositories will be stored in `~/.git-credentials` file separately on their own lines:
 ```bash
@@ -82,38 +100,48 @@ According to the below StackOverflow Answer
 ## How to list out all branches
 [Freecodecamp link](https://www.freecodecamp.org/news/git-list-branches-how-to-show-all-remote-and-local-branch-names/)
 
-> git branch -> to see current branch
-> git branch -r -> to see all remote branches
-> git branch -a -> to see all remote and local branches
-> git branch -vv -> to see local branch and the last commit on it
-> git branch -vva -> to see all branches and their last commits
+> git branch -> to see current branch    
+> git branch -r -> to see all remote branches     
+> git branch -a -> to see all remote and local branches     
+> git branch -vv -> to see local branch and the last commit on it     
+> git branch -vva -> to see all branches and their last commits     
 
 ## Git Log 
 Here's a few useful git log command flags that may prove useful
 Here's the link on some of these options -> [Git Docs on git log](https://git-scm.com/book/en/v2/Git-Basics-Viewing-the-Commit-History)
 
-> git log --graph 
+```bash
+git log --graph 
+```
+displays a graph with all the different commits
 
-displays a graph with all the different comits
-
-> git log --graph --oneline --pretty
-
+```bash
+git log --graph --oneline --pretty
+```
 displays a commit graph but with different formatting
-> git log --stat
 
+```bash
+git log --stat
+```
 displays all the logs but with some more useful stats like which files were modified and which had additions and deletions
 
-> git log --patch or git log -p
-
+```bash
+git log --patch or git log -p
+```
 displays all the logs but with code snippets showing what was changed (useful for quick reviews)
 
 
 ## Search for a keyword in a git commit in git logs
 
-> git log --grep "keyword"
+```bash
+git log --grep "keyword"
+```
 
 you  can also use 
-> git log --author "author name" 
+
+```bash
+git log --author "author name" 
+```
 
 for getting all commits written by this person/author
 
@@ -124,7 +152,7 @@ Go here to see git stash commands -> [[Git-Stash]]
 ## Un-stage a file on Git 
 simply do reset and mention the file path, like below :
 
-```
+```bash
 git reset <file>
 ```
 
@@ -146,14 +174,14 @@ git checkout -- .
 - find more here - [Atlassian git reset](https://www.atlassian.com/git/tutorials/undoing-changes/git-reset), [useful stackoverflow answer](https://stackoverflow.com/questions/9529078/how-do-i-use-git-reset-hard-head-to-revert-to-a-previous-commit), [another useful stack overflow answer](https://stackoverflow.com/questions/31519071/i-want-to-reset-my-current-git-branch-to-master-branch)
 
 Here's how I used it to move my branch `minor-changes` to bring it up to where `master` was 
-> - check status using `git status 
-> - if there's nothing to commit then find the latest commit or the commit where master is currently at
-> - this can be done using `git log origin/master`
-> - then use the reset command - `git reset <COMMIT ID OF MASTER BRANCH>`
-> - then check the status again using `git status`
-> - if it says that your branch is ahead of `minor-changes` by some commits then you've succeeded 
-> - after that just push it to your remote branch - `git push origin minor-changes` 
-> - you can change where you're branch is by using `git log` again and it should show you being at the same commit as `origin/master` 
+> - check status using `git status     
+> - if there's nothing to commit then find the latest commit or the commit where master is currently at     
+> - this can be done using `git log origin/master`     
+> - then use the reset command - `git reset <COMMIT ID OF MASTER BRANCH>`      
+> - then check the status again using `git status`      
+> - if it says that your branch is ahead of `minor-changes` by some commits then you've succeeded      
+> - after that just push it to your remote branch - `git push origin minor-changes`  
+> - you can change where you're branch is by using `git log` again and it should show you being at the same commit as `origin/master`     
 
 in case of extreme resetting use the force parameter after resetting to the commit on local 
 ```
@@ -209,3 +237,6 @@ Update: Here's a convenient alias for seeing which files are currently "ignored"
 ```
 git config --global alias.ignored = !git ls-files -v | grep "^[[:lower:]]"
 ```
+
+### More on Git
+- [Git Notes Index]({% post_url /git/2024-02-20-Git-Notes-Index %})

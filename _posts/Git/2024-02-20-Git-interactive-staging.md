@@ -182,5 +182,4 @@ You also don’t need to be in interactive add mode to do the partial-file stagi
 Furthermore, you can use patch mode for partially resetting files with the `git reset --patch` command, for checking out parts of files with the `git checkout --patch` command and for stashing parts of files with the `git stash save --patch` command. We’ll go into more details on each of these as we get to more advanced usages of these commands.
 
 ### More on Git
-- [Link to Git Stash]({% post_url 2024-02-20-Git-stash %})
-- [Other notes]({% post_url 2024-02-20-Useful-Git-Notes %})
+- [Git Notes Index]({% post_url /git/2024-02-20-Git-Notes-Index %})

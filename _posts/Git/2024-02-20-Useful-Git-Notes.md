@@ -46,7 +46,7 @@ git diff --stat <commitID>
 this gives the stats (which files were modified) for a specific commit 
 
 ## How to save git credentials
-### This link is pretty useful [LINK](https://www.shellhacks.com/git-config-username-password-store-credentials/). It even discusses how to set git credentials for a single repo and also for global usage.
+### This link is pretty useful [Shellhacks](https://www.shellhacks.com/git-config-username-password-store-credentials/). It even discusses how to set git credentials for a single repo and also for global usage.
 
 The usernames and passwords for different GitHub repositories will be stored in `~/.git-credentials` file separately on their own lines:
 ```bash
@@ -239,5 +239,4 @@ git config --global alias.ignored = !git ls-files -v | grep "^[[:lower:]]"
 ```
 
 ### More on Git
-- [Interactive staging in Git]({% post_url 2024-02-20-Git-interactive-staging %})
-- [Stashing in Git]({% post_url 2024-02-20-Git-stash %})
+- [Git Notes Index]({% post_url /git/2024-02-20-Git-Notes-Index %})

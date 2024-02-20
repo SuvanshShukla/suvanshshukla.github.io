@@ -21,7 +21,7 @@ $ a \times b $
 
 ## Add space for multi-word variable     
 just write `\space`     
-underscore won't work    
+**underscore won't work**   
 or you can use `~` the squiggly symbol  
 $ abosolute \space return = something \times something_else $   
 

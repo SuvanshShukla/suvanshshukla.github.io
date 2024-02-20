@@ -1,3 +1,11 @@
+---
+title: Useful Git Commands & Notes
+date: 2024-02-20
+categories: [git, tutorial]
+tags: [git, learning]
+---
+
+
 # Some Useful Git Commands
 ---
 
@@ -229,3 +237,7 @@ Update: Here's a convenient alias for seeing which files are currently "ignored"
 ```
 git config --global alias.ignored = !git ls-files -v | grep "^[[:lower:]]"
 ```
+
+### More on Git
+- [Interactive staging in Git]({% post_url 2024-02-20-Git-interactive-staging %})
+- [Stashing in Git]({% post_url 2024-02-20-Git-stash %})

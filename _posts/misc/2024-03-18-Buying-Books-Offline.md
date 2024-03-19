@@ -11,12 +11,12 @@ One for every kind of reader. But finding the exact one for yourself is not as e
 and can hardly finish even the smallest of books then this is a near herculean task, it certainly is for me. 
 
 I (currently) only really like to read two types of books. Primarily Science-Fiction followed by a little bit of Fantasy. This shouldn't really come as a 
-surprise since Fantasy is (currently among the most popular genre of books)[https://wordsrated.com/fantasy-book-sales-statistics/#:~:text=Fantasy%20book%20sales%20grew%20by%2045.3%25%20in%202021%20compared%20to%202020%2C%20which%20was%20the%20largest%20increase%20among%20all%20genres%20aside%20from%20graphic%20novels.]
+surprise since Fantasy is [currently among the most popular genre of books](https://wordsrated.com/fantasy-book-sales-statistics/#:~:text=Fantasy%20book%20sales%20grew%20by%2045.3%25%20in%202021%20compared%20to%202020%2C%20which%20was%20the%20largest%20increase%20among%20all%20genres%20aside%20from%20graphic%20novels.)
 But in India, Science-Fiction is hard to find (though, this statement is unfortunately from personal experience).
 
 
 ## Looking for Sci-Fi in India 
-I like sci-fi, I was first introduced to sci-fi when I learned that the movie (Arrival (2016))[https://imdb.com/title/tt2543164] was based on a book by Ted Chiang, called "The Story of Your Life and Others". I searched it up and bought it from Amazon. 
+I like sci-fi, I was first introduced to sci-fi when I learned that the movie [Arrival (2016)](https://imdb.com/title/tt2543164) was based on a book by Ted Chiang, called "The Story of Your Life and Others". I searched it up and bought it from Amazon. 
 
 Turned out that it was a short story from a collection of others. As I slowly read more and more, I was enthralled by each successive story and by the end I had resolved to read more sci-fi. After that the rocket took off and I read more books, from the latest hits, like "Project Hail Mary" to other stories like Foundation or Hyperion (All phenomenal books btw). 
 
